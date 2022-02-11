@@ -1,0 +1,184 @@
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+div {
+	display: flex;
+	
+	justify-items: center;
+}
+
+
+
+
+
+
+.container {
+	display: grid;
+	border-radius: 5px;
+	width: 322px;
+	height: 433px;
+	margin: 250px;
+	padding: 10px;
+	background-color: #9e22da;
+	box-shadow: 0px 0px 20px  black;
+
+}
+
+
+.foto-spiderman {
+
+	width: 200px;
+	height: 200px;
+
+}
+
+
+
+
+
+
+img {
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	border: 3px solid #fff;
+	object-fit: cover;
+	
+
+		
+}
+
+
+h1{
+	font-weight: 400;
+}
+
+
+.nombre {
+	font-size: 15px;
+
+	color: #fff;
+	margin-top: -30px;
+	margin-bottom: -150px;
+	
+
+
+
+}
+
+.empresa {
+	display: flex;
+
+	font-size: 8px;
+	margin-top: -23px;
+	margin-bottom: -30px;
+
+	color: #fff;
+	
+	
+}
+
+
+p {
+	
+	display: flex;
+	margin: 15px;
+ 	font-weight: 400;
+ 	width: 222px;
+ 	height: 45px;
+ 	
+}
+
+
+
+
+
+.descripcion {
+	font-size: 13px;
+	color: #fff;
+	margin-top: -35px;
+	text-align: center;
+	margin-bottom: -50px;
+
+}
+
+
+b{
+	padding: 8px 36px ;
+	font-weight: 600;
+	font-size: 15px;
+	
+
+}
+
+
+
+.botones {
+	
+	margin-top: -10px;
+	margin-bottom: -35px;
+	
+
+}
+
+button {
+	width: 140px ;
+	height: 39px;
+	background-color: #fff;
+	margin-right: 35px;
+	border-radius: 5px;
+	transition: .5s;
+	cursor: pointer;
+
+}
+
+.boton1 {
+	
+
+	
+	width: 140px ;
+	height: 39px;
+	background-color: #fff;
+	margin-right: 35px;
+	border-radius: 5px;
+	transition: .5s;
+	cursor: pointer;
+
+	
+
+
+}
+
+
+.boton2 {
+	
+	width: 140px ;
+	height: 39px;
+	background-color: #fff;
+	margin-left: -25px;
+	border-radius: 5px;
+	transition: .5s;
+	cursor: pointer;
+	   }
+
+
+
+
+.boton1:hover {
+	transition: .5s;
+	background-color: #000;
+	color: #fff;
+
+
+}
+
+
+.boton2:hover {
+	transition: .5s;
+	background-color: #000;
+	color: #fff;
+
+}
